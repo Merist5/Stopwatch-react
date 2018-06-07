@@ -1,9 +1,8 @@
 class Stopwatch extends React.Component {
-  constructor(display) {
-    super(display);
+  constructor() {
+    super();
       this.state = {
         running: false,
-        display: display,
         times: {
           minutes: 0,
           seconds: 0,
